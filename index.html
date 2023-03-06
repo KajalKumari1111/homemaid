@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Maid Hiring System</title>
+</head>
+<body>
+    <nav>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#" id="login">Login</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section1">
+        <div class="grid">
+            <h1 class="h1">welcome to hire your maid</h1>   
+            <p class="p">If you want to get a job</p>
+            <div class="button1"><a href="job.html">Apply for job </a></div>
+        </div>    
+            <div class="grid1">
+            <h1 class="h1">welcome to hire your maid</h1>   
+            <p class="p">If you want to hire maid</p>
+            <div class="button1"><a href="hire.html">Hire Your Maid</a></div>
+        </div>
+        <div class="h"><p>Finding a reliable maid is not anymore difficult for you, Many people <br>have trusted us and got their maid and now its your turn to choose. :) </P></div>
+        <div><img class="img" src="asserts/Maid-2.png"></div>
+        <div><img class="img1" src="asserts/Maid-3.png"></div>
+        <div><img class="img2" src="asserts/Maid-6.png"></div>
+    </section>
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <img src="asserts/images.png" height="100px" width="90px">
+            <form action="">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="password">
+                <a href="" class="button">Submit</a>
+            </form>
+        </div>
+    </div>
+    <section>
+        <div class="offer" ><h1>Services Offered</h1>
+       <div class="hll"><div><img href="#" class = "i" src="asserts/cooking.png" height="120px">
+        <h6>Cooking</h6></div>
+        <div class = "i"><img href="#" src="asserts/baby.jpg" height="120px">
+        <h6>Baby Sitter</h6></div>
+        <div><img href="#" src="asserts/cleaning.jpg" height="125px">
+        <h6>Cleaning</h6></div>
+        <div class="l"><img href="#" src="asserts/male.png" height="125px">
+        <h6>Male</h6></div>
+        <div class="l2"><img href="#" src="asserts/female.png" height="125px">
+        <h6>Female</h6></div>
+        <div class="l3"><img href="#" src="asserts/couple.jpg" height="125px">
+        <h6>Couple</h6></div>
+       </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>Why to choose us</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+             <i class="fa fa-shield"></i>
+                <h3>Safety</h3>
+                <p>We check proper details of every maid because your safety is our first priority</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-calendar-check-o"></i>
+                <h3>Easy & Quick</h3>
+                <p>No need to wait for maid to come for interview. Just register get an instant call.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-retweet"></i>
+                   <h3>Replacement for Free</h3>
+                   <p>If the maid leaves for any reason within 6 months of joining, we will replace the maid.</p>
+               </div>
+        </div>   
+        <div class="box-container">
+            <div class="box">
+                <i class="fa fa-trophy"></i>
+                <h3>High Quality</h3>
+                <p>Only skilled maids are registered with us.</p>
+            </div>
+            <div class="box">
+             <i class="fa fa-users"></i>
+                <h3>Multiple Options</h3>
+                <p>Watch as many profiles as you want. Select only the one you find best</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-wrench"></i>
+                      <h3>Service</h3>
+                      <p>We are not just another maid agency. We have strong ethics and customers comes first!</p>
+             </div>
+        </div>
+    </div> 
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading1"><span>About Us </span></h1>
+        <div id="about" class="row">
+            <div  class="image">
+                <img src="asserts/maidd.png">
+            </div>
+            <div class="content">
+                <h3>Come and Join us</h3>
+                <p><i class="fa fa-user"></i>We have the dedicated agency for hiring maid where the maid apply for job from all over the country. We keep our customers as our first priority. We check all the background details of every maid and after varification they are given job.</p>
+                <p>We're truly humbled to have received volumes of positive customer feedback for our services. This appreciation from our prestigious clients is more valuable than any award for us. Our customers safety is important for us. Therefore, our dedicated team of experts endeavours to achieve the goal of making our customers happy.</p>
+            </div>
+        </div>
+       </section>
+
+
+       <section class="contact" id="contact">
+        <h1 class="heading2">Contact</h1>
+        <div id="error_message"></div>
+        <div class="row">
+           <div class="image">
+             <img src="asserts/imag.png">
+           </div>
+
+
+        <form id="myform" onsubmit="return validation();" action="contact.php" method="POST">
+         <form>
+         <div class="inputBox">
+                <input type="text" id="name" name="name" placeholder="name">
+                <input type="email" id="email"  name="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" id="number" name="number" placeholder="number">
+                <input type="text" id="subject" name="subject" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit" name="submit" class="btn" value="send message">
+         </form>
+         </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>HomeMaid</h3>
+                <p>HomeMaid is the India’s largest service provider for Maid, Cook, Babysitter, Male worker, Femal worker and Couple maid. We help customers and businesses to hire trusted professionals for all their service needs.</p>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Login</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="box">
+             <h3>Follow us</h3>
+             <a href="#">Facebook</a>
+             <a href="#">Instagram</a>
+             <a href="#">Twitter</a>
+             <a href="#">Linkdin</a>
+           </div>
+            <div class="box">
+                <h3>Phone & Address</h3>
+                 <p>916374638</p>
+                 <p>914627776</p>
+                 <p>Main building, Unit No:382, Pakhowal road, 141123, Ludhiana, India</p>
+            </div>
+
+            <div class="box">
+             <p>Terms & Conditions</p>
+             <p>Privacy Policy</p>
+           </div>
+        </div>
+        <h1 class="credits">Created by <span>Kajal</span> | All rights are reserved |</h1>
+    </section> 
+    <script src="style.js"></script>
+    <script src="styll.js"></script>
+</body>
+</html>
